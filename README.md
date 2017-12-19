@@ -1,4 +1,6 @@
 ---
+layout: default
+title: Bismunt: Wat de f*k is Bitcoin anyway?
 use_math: true
 ---
 
