@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Wat de fok is Bitcoin anyway?
 
 You can use the [editor on GitHub](https://github.com/theronic/bismunt/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
