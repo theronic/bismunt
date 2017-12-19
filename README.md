@@ -1,3 +1,14 @@
+---
+use_math: true
+---
+
+Test a display math:
+$$
+   |\psi_1\rangle = a|0\rangle + b|1\rangle
+$$
+Is it O.K.?
+
+
 # OK bois, so hoerrefok werk hierdie crypto shit?
 
 ## A.k.a. wat de p**s is Bitcoin
