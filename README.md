@@ -2,6 +2,8 @@
 
 ## A.k.a. wat de p**s is Bitcoin
 
+brannewyn hex color: #DE8F01
+
 Skink solank vir jou 'n dubbel en kom sit op oom se skoot laat ons kan praat oor die eerste prys wat opkom.
 
 Bismunte, of bitcoins, gebruik public key encryption bo-op 'n publieke grootboek (ledger) sodat jy gisteraand se rekening kan settle &mdash; maar ontspan pel, ons gaan nou ball chat oor al daai fênsie kak.
