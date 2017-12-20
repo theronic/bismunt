@@ -10,3 +10,7 @@ https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css
 (map inc [1 2 3])
 ```
 </code></pre>
+
+<pre><code class="language-eval-clj">
+(map inc [1 2 3])
+</code></pre>
