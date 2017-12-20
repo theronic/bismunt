@@ -19,23 +19,38 @@
     <!-- can make this conditional -->
     <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css">
 
-    <script>
-    window.klipse_settings = {
-        codemirror_options_in: {
-            lineWrapping: true,
-            autoCloseBrackets: true
-        },
-        codemirror_options_out: {
-            lineWrapping: true
-        },
-        beautify_strings: true,
-        selector_eval_js: '.klipse-js, .language-js',
-        selector_eval_html: '.language-klipse-html',
-        selector_sql: '.language-klipse-sql',
-        selector: '.klipse, .language-klipse, .language-eval-clj',
-        selector_reagent: '.reagent, .language-reagent'
-    };
-    </script>    
+
+  <script>
+   window.klipse_settings = {
+
+       //  CSS selectors for the HTML elements you want to Klipsify:
+
+       selector: '.language-klipse',                           // ClojureScript evaluation
+       //selector_js: '.language-klipse-js',                     // ClojureScript transpilation. 
+       //selector_reagent: '.language-reagent',                  // Reagent.
+       selector_eval_js: '.language-klipse-eval-js',           // Javascript evaluation.
+       //selector_eval_ruby: '.language-klipse-eval-ruby',       // Ruby evaluation.
+       selector_es2017: '.language-klipse-es2017',             // EcmaScript 2017 evaluation.
+       //selector_jsx: '.language-klipse-jsx',                   // JSX evaluation.
+       //selector_transpile_jsx: '.language-transpile-jsx',      // JSX transpilation.
+       //selector_eval_php: '.language-klipse-eval-php',         // PHP Evaluation.
+       //selector_eval_markdown: '.language-klipse-markdown',    // Markdown transpilation.
+       //selector_eval_lambdaway: '.language-klipse-lambdaway',  // Lambdaway transpilation.
+       //selector_eval_python_client: '.language-klipse-python', // Python evaluation.
+       //selector_eval_cpp: '.language-klipse-cpp',              // CPP evaluation
+       //selector_eval_html: '.language-klipse-html',            // HTML evaluation.
+       //selector_sql: '.language-klipse-sql',                   // Sqlite evaluation.
+       //selector_eval_scheme: '.language-klipse-scheme',        // Scheme evaluation.
+
+       //cached_ns_root: '/my-root',                             // Root of Clojure cached namespace.
+       //clojure_cached_macro_ns_regexp: /reagent.*/,            // Regexp for Clojure macro namespaces that are cached.
+       //clojure_cached_ns_regexp: /reagent.*/,                  // Regexp for Clojure namespaces that are cached.
+       //codemirror_root: '/my-codemirror-root',                 // Root of Codemirror files.
+       //scripts_root: '/my-scripts-root',                       // Root of scripts files (e.g pretty_format.js, opal.js ...).
+       print_length: 30                                        // Max num of items in collections to display (default 1000).
+       //beautify_strings: true                                  // Show interior of strings w/out escaping " (default false).
+   };
+  </script>
   
     <!-- math should work here -->
   </head>
@@ -68,7 +83,7 @@
 
     </div>
 
-    <script src="https://storage.googleapis.com/app.klipse.tech/plugin_prod/js/klipse_plugin.min.js"></script>
+    <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
    
     
     {% if site.google_analytics %}
